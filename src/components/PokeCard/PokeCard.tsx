@@ -12,7 +12,11 @@ export interface PokeCardProps {
 
 export function PokeCard({ imgURL, gifURL, name, types }: PokeCardProps) {
     return (
-        <div className={"flex flex-col justify-center items-center bg-slate-200 w-[250px] h-[165px]"}>
+        <div
+            className={
+                "flex flex-col justify-center items-center bg-gray w-[250px] h-[165px]"
+            }
+        >
             <PokeMedia imgURL={imgURL} gifURL={gifURL} />
             <PokeName name={name} />
             <PokeTypes types={types} />
