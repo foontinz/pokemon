@@ -2,14 +2,14 @@ type PokeTypesProps = {
     types: string[]
 }
 
-function PokeTypes({types}: PokeTypesProps) {
+function PokeTypes({ types }: PokeTypesProps) {
     return (
         <>
-            {types.map(type => (
-                <p>{type}</p>
+            {types.map((type, idx) => (
+                <p key={idx}>{type}</p>
             ))}
         </>
-    );
+    )
 }
 
-export default PokeTypes;
+export default PokeTypes

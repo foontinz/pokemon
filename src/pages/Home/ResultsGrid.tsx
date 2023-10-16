@@ -1,18 +1,21 @@
-import {PokeCard, PokeCardProps} from "../../components/PokeCard/PokeCard.tsx";
+import { PokeCard, PokeCardProps } from "@/components/PokeCard/PokeCard.tsx"
 
-
-export interface ResultsGridProps{
+export interface ResultsGridProps {
     pokeResults: PokeCardProps[]
 }
 
-function ResultsGrid({pokeResults}: ResultsGridProps) {
+function ResultsGrid({ pokeResults }: ResultsGridProps) {
     return (
-        <section className={"grid gap-4 grid-cols-3"}>
-            {pokeResults.map(pokemon => (
-                <PokeCard {...pokemon}/>
+        <section
+            className={
+                "grid gap-4 place-items-center grid-cols-[repeat(auto-fill,minmax(250px,1fr))]"
+            }
+        >
+            {pokeResults.map((pokemon, idx) => (
+                <PokeCard key={idx} {...pokemon} />
             ))}
         </section>
-    );
+    )
 }
 
-export default ResultsGrid;
+export default ResultsGrid
