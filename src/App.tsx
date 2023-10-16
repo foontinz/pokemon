@@ -1,10 +1,13 @@
-import {Search} from "lucide-react";
-
+import {Routes, Route} from 'react-router-dom';
+import Home from "./pages/Home/Home.tsx";
 
 function App() {
+
     return (
         <>
-            <Search/>
+            <Routes>
+                <Route path={'/'} element={<Home/>}></Route>
+            </Routes>
         </>
     )
 }
