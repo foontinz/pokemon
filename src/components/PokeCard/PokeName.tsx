@@ -4,7 +4,7 @@ type PokeNameProps = {
 
 function PokeName({name}: PokeNameProps) {
     return (
-        <span>{name}</span>
+        <span className="flex justify-center">{name}</span>
     );
 }
 
