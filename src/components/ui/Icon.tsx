@@ -1,4 +1,3 @@
-import { ReactSVG } from "react-svg"
 import { VariantProps, cva } from "class-variance-authority"
 
 const iconVariants = cva("icon", {
@@ -9,7 +8,7 @@ const iconVariants = cva("icon", {
         size: {
             tiny: "w-[1rem] h-[1rem]",
             small: "w-[1.75rem] h-[1.75rem]",
-            medium: "w-[2.5rem] h-[2.5rem]",
+            medium: "w-[2rem]",
             large: "w-[3rem] h-[3rem]",
             xlarge: "w-[5rem] h-[5rem]",
         },
@@ -31,9 +30,10 @@ function Icon({ className, variant, size, name }: IconProps) {
     const iconSrc = `${baseURL}assets/icons/${name}.svg`
 
     return (
-        <div className={iconVariants({ className, variant, size })}>
-            <ReactSVG src={iconSrc} />
-        </div>
+        <img
+            className={iconVariants({ className, variant, size })}
+            src={iconSrc}
+        />
     )
 }
 
