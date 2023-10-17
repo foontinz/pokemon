@@ -1,6 +1,6 @@
 import { VariantProps, cva } from "class-variance-authority"
 
-const iconVariants = cva("icon", {
+const cardVariants = cva("card", {
     variants: {
         variant: {
             default: "bg-gray rounded-lg shadow-md font-glory",
@@ -15,16 +15,16 @@ const iconVariants = cva("icon", {
     },
 })
 
-export interface IconProps
+export interface CardProps
     extends React.HTMLAttributes<HTMLDivElement>,
-        VariantProps<typeof iconVariants> {}
+        VariantProps<typeof cardVariants> {}
 
-function Icon({ className, variant, size, children }: IconProps) {
+function Card({ className, variant, size, children }: CardProps) {
     return (
-        <div className={iconVariants({ className, variant, size })}>
+        <div className={cardVariants({ className, variant, size })}>
             {children}
         </div>
     )
 }
 
-export default Icon
+export default Card
