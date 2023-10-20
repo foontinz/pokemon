@@ -13,15 +13,11 @@ export interface PokeCardProps {
 
 export function PokeCard({ imgURL, gifURL, name, types }: PokeCardProps) {
     return (
-        <Card className="flex justify-center items-center gap-0">
-            <div className="flex flex-col w-[50%] justify-center gap-4">
-                <div className="w-[100px]">
-                    <PokeMedia imgURL={imgURL} gifURL={gifURL} />
-                    <PokeName name={name} />
-                </div>
-            </div>
-            <div className="flex flex-col items-start h-full py-4">
-                <PokeTypes types={types} />
+        <Card className="flex justify-between py-6 flex-col w-full items-center">
+            <PokeTypes types={types} />
+            <div className="flex flex-col gap-6">
+                <PokeMedia imgURL={imgURL} gifURL={gifURL} />
+                <PokeName name={name} />
             </div>
         </Card>
     )
