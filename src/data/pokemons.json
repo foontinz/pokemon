@@ -1,71 +1,71 @@
 [
     {
         "id": 1,
-        "name": "Tidmarsh",
-        "types": ["Mazda"],
+        "name": "Bulbasaur",
+        "types": ["grass", "poison"],
         "imgURL": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/3.png",
         "gifURL": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/3.png"
     },
     {
         "id": 2,
-        "name": "Swinbourne",
-        "types": ["Chevrolet"],
+        "name": "Bulbasaur",
+        "types": ["grass"],
         "imgURL": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/3.png",
         "gifURL": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/3.png"
     },
     {
         "id": 3,
-        "name": "Readwin",
-        "types": ["Lexus"],
+        "name": "Bulbasaur",
+        "types": ["grass", "poison", "electric"],
         "imgURL": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/3.png",
         "gifURL": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/3.png"
     },
     {
         "id": 4,
-        "name": "Huebner",
-        "types": ["Toyota"],
+        "name": "Bulbasaur",
+        "types": ["grass"],
         "imgURL": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/3.png",
         "gifURL": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/3.png"
     },
     {
         "id": 5,
-        "name": "Cokly",
-        "types": ["Honda"],
+        "name": "Bulbasaur",
+        "types": ["grass", "poison"],
         "imgURL": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/3.png",
         "gifURL": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/3.png"
     },
     {
         "id": 6,
-        "name": "Jeavon",
-        "types": ["Chevrolet"],
+        "name": "Bulbasaur",
+        "types": ["grass", "poison"],
         "imgURL": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/3.png",
         "gifURL": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/3.png"
     },
     {
         "id": 7,
-        "name": "Rivalant",
-        "types": ["Lotus"],
+        "name": "Bulbasaur",
+        "types": ["grass", "poison"],
         "imgURL": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/3.png",
         "gifURL": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/3.png"
     },
     {
         "id": 8,
-        "name": "Blais",
-        "types": ["Mercury"],
+        "name": "Bulbasaur",
+        "types": ["grass", "poison"],
         "imgURL": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/3.png",
         "gifURL": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/3.png"
     },
     {
         "id": 9,
-        "name": "Libri",
-        "types": ["GMC"],
+        "name": "Bulbasaur",
+        "types": ["grass", "poison"],
         "imgURL": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/3.png",
         "gifURL": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/3.png"
     },
     {
         "id": 10,
-        "name": "Edlington",
-        "types": ["Cadillac"],
+        "name": "Bulbasaur",
+        "types": ["grass", "poison"],
         "imgURL": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/3.png",
         "gifURL": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/3.png"
     }
