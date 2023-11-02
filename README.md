@@ -1,4 +1,4 @@
-# React + TypeScript + Vite
+# pokemon-explorer
 
 This is simple React + TypeScript + Vite application, utilizing open-source [pokeAPI](https://github.com/PokeAPI/pokeapi)
 
