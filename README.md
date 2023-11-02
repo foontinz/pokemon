@@ -1,27 +1,33 @@
 # React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is simple React + TypeScript + Vite application, utilizing open-source [pokeAPI](https://github.com/PokeAPI/pokeapi)
 
-Currently, two official plugins are available:
+Idea of which was to provide better user experience for people using pokemons explorers, like [Bulbapedia](https://bulbapedia.bulbagarden.net/wiki/Main_Page). 
+### Main focuses of this project are
+- Provide convinient search with such features like filtering, sorting etc.
+- Provide user-friendly interface to end-user.
+- Contribute to entusiastic pokemon community.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Setup     ![Static Badge](https://img.shields.io/badge/node-18)
 
-## Expanding the ESLint configuration
+- Install the requirements using npm:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+    ```sh
+    # This will install all the required packages and libraries for using application
+    npm install
+    ```
 
-- Configure the top-level `parserOptions` property like this:
+- Deploy in dev environment with fast-refresh and dev-tools using this command
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+    ```sh 
+    npm run dev
+    ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- Run the deployment server using the following commandS:
+
+    ```sh
+    npm run build
+    npm run preview
+    ```
+
+TBD...
