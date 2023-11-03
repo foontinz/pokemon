@@ -1,6 +1,6 @@
 import SearchBar from "@/pages/Home/SearchBar.tsx"
 import ResultsGrid from "@/pages/Home/ResultsGrid.tsx"
-import { PokeCardProps } from "@/components/PokeCard/PokeCard.tsx"
+import { PokeCardProps } from "@/components/PokeCard/index"
 
 import _data from "@/data/pokemons.json"
 import Container from "@/components/ui/Container"

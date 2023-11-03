@@ -1,4 +1,4 @@
-import { PokeCard, PokeCardProps } from "@/components/PokeCard/PokeCard.tsx"
+import { PokeCard, PokeCardProps } from "@/components/PokeCard/index"
 
 export interface ResultsGridProps {
     pokeResults: PokeCardProps[]
