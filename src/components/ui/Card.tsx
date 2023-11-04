@@ -6,7 +6,8 @@ const cardVariants = cva("card", {
             default: "bg-gray rounded-lg shadow-md font-glory",
         },
         size: {
-            vertical: "w-[12rem] h-[18rem]",
+            vertical: "w-[16rem] h-[22rem] md:w-[16rem] md:h-[22rem]",
+            verticalModal: "w-[18rem] h-[26rem] md:w-[24rem] md:h-[34rem]",
         },
     },
     defaultVariants: {

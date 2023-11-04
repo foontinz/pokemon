@@ -29,7 +29,7 @@ export function PokeCard({ imgURL, gifURL, name, types, id }: PokeCardProps) {
     return (
         <Card
             onClick={open}
-            className="cursor-pointer flex justify-between py-6 flex-col w-full items-center"
+            className="cursor-pointer flex justify-between py-6 flex-col items-center"
         >
             <PokeTypes types={types} />
             <div className="flex flex-col gap-6">

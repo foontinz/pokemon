@@ -8,7 +8,7 @@ function ResultsGrid({ pokeResults }: ResultsGridProps) {
     return (
         <section
             className={
-                "grid gap-6 place-items-center grid-cols-[repeat(auto-fill,minmax(220px,1fr))]"
+                "grid gap-10 place-items-center grid-cols-[repeat(auto-fill,minmax(14rem,1fr))]"
             }
         >
             {pokeResults.map((pokemon, idx) => (
